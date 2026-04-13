@@ -4,7 +4,7 @@
 [![Skill Type](https://img.shields.io/badge/skill-Codex-blue.svg)](#)
 [![Status](https://img.shields.io/badge/status-ready-brightgreen.svg)](#)
 
-`Rapid Mastery` 是一个面向 Codex 的技能，用来把开放式学习需求压缩成高密度、高留存、可立刻执行的学习冲刺。
+`Rapid Mastery` 是一个面向 Codex 的技能[兼容claude code， OpenClaw， OpenCode]，用来把开放式学习需求压缩成高密度、高留存、可立刻执行的学习冲刺。
 
 `Rapid Mastery` is a Codex skill that turns open-ended learning requests into high-density, high-retention, immediately actionable learning sprints.
 
