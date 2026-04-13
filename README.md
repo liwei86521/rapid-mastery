@@ -268,7 +268,6 @@ rapid-mastery/
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
-├─ README_TEMPLATE.md
 ├─ SKILL.md
 └─ agents/
    └─ openai.yaml
