@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rapid Mastery"
+  short_description: "快速掌握新主题的中文学习闭环技能"
+  default_prompt: "Use $rapid-mastery to help me master Kubernetes with the 10x learning method in 30-minute sprint, 60-minute sprint, 1-day mastery, 3-day plan, or interview-cram mode."
