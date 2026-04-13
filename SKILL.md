@@ -114,6 +114,18 @@ Unless the user requests a different format, structure the response in this orde
 
 `模式判断` 必须说明为什么选这个模式。
 
+在生成正文回答后，默认额外产出 1 份可复用的 Markdown 文档，除非用户明确说不要创建文件。
+
+Markdown 文档默认要求：
+- 将聊天回答中的核心内容完整落地为 `.md` 文件，而不是只写摘要。
+- 默认保存到当前工作目录；如果用户指定了路径或文件名，优先遵从用户要求。
+- 文档结构默认与回答保持一致，并补上一个清晰标题，例如 `# [主题] - [模式]学习方案`。
+- 文件名优先使用 `<topic>-<mode>-rapid-mastery.md`；如果主题包含文件系统不安全字符，替换为短横线。
+- 文档中保留学习地图、通俗讲解、练习题、费曼检验、下一步，以及按模式需要展开的时间路径或阶段安排。
+- 如果回答里包含命令、代码、清单或练习参考答案，Markdown 文档中也要保留。
+- 在最终对用户的回复里，用一句话告知 Markdown 文档的保存路径。
+- 如果当前环境不能写文件，就改为输出一个完整的 ```md``` 代码块，并明确说明未实际落盘。
+
 对于五种模式，默认输出要求如下：
 
 ### 30分钟速成
@@ -524,3 +536,5 @@ A strong result should let the user:
 - understand the hard part in plain language
 - test themselves immediately
 - prove understanding by explaining or doing
+- leave behind a reusable Markdown study note, not only a chat reply
+
